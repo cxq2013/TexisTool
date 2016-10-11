@@ -1,0 +1,503 @@
+.page8-1{
+    background-image: url(img/8-bg.png);
+    background-size:cover ;
+}
+.pages{
+    position: relative;
+}
+.music{
+    position: fixed;
+    z-index: 2;
+    top: 4%;
+    right: 8%;
+    width: 10%;
+    animation:music 3s linear 0s infinite ;
+    -webkit-animation:music 3s linear 0s infinite ;
+}
+@keyframes music {
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes music {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+.page1-1,.page2-1,.page3-1,.page4-1,.page5-1,.page6-1,.page7-1,.page8-1{
+    position: relative;
+}
+.page1-1 .img-1,.img-2{
+    position: absolute;
+    top: 20%;
+}
+.page1-1 .img-1{
+    left: 10%;
+    width: 50%;
+}
+.page1-1 .img-2{
+    margin-left: 65%;
+    width: 20%;
+}
+.page1-1 .img-3{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    width: 55%;
+}
+.page1-1 .img-4,.img-5,.img-6{
+    position: absolute;
+    top: 60%;
+    left: 48%;
+}
+.page1-1 .img-4{
+    width: 7%;
+    left: 47%;
+    animation: move1-4 3s ease 0s forwards;
+    -webkit-animation: move1-4 3s ease 0s forwards;
+}
+@keyframes move1-4 {
+    from{
+        top:58%;
+    }
+    to{
+        top:78%
+    }
+}
+@-webkit-keyframes move1-4 {
+    from{
+        top:58%;
+    }
+    to{
+        top:78%
+    }
+}
+.page1-1 .img-5{
+    width: 5%;
+    z-index: -2;
+    height: 25%;
+}
+.page1-1 .img-6{
+    background-color: #00b9d7;
+    /*height: 24%;*/
+    width: 3.4%;
+    border-radius: 13px;
+    z-index: -1;
+    top: 60.5%;
+    left: 48.7%;
+    animation:move1-6 3s ease 0s forwards ;
+    -webkit-animation:move1-6 3s ease 0s forwards ;
+}
+@keyframes move1-6 {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 24%;
+    }
+}
+@-webkit-keyframes move1-6 {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 24%;
+        /*-webkit-transform: translate3d(0,-12.5%,0);*/
+        /*transform: translate3d(0,-12.5%,0);*/
+    }
+}
+.page2-1 .img-2,.img-1{
+    position: absolute;
+    left: 50%;
+}
+.page2-1 .img-1{
+    top:6%;
+    width: 20%;
+}
+.page2-1 .img-2{
+    z-index: 1;
+    margin-left:-2%;
+    width: 10%;
+    top:27%;
+}
+.page2-1.active .img-2{
+    animation: move2-2 2s ease 0s forwards;
+    -webkit-animation: move2-2 2s ease 0s forwards;
+}
+@keyframes move2-2{
+    to{
+        top:50%
+    }
+}
+@-webkit-keyframes move2-2 {
+    to{
+        top:50%
+    }
+}
+.page2-1 .img-3{
+    position: absolute;
+   bottom: 13%;
+    left: 20%;
+    width: 65%;
+}
+.page2-1 .img-4{
+    position: absolute;
+    bottom: 6%;
+    left: 25%;
+    width: 45%;
+}
+.page3-1 .img-1{
+   position: absolute;
+    top: 5%;
+    width: 60%;
+    left: 15%;
+}
+.page3-1 .img-2{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+}
+.page3-1 .img-3{
+    position: absolute;
+    top:40%;
+    left:0%;
+    width: 80%;
+}
+.page3-1 .img-4{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 35%;
+}
+.page3-1 .img-5{
+    position: absolute;
+    top: 69.8%;
+    left: 28.5%;
+    width: 38%;
+    z-index: -1;
+}
+
+.page3-1 .span1{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.page3-1 .span2{
+    position: absolute;
+    top: 80%;
+    right: 13%;
+}
+.page4-1 .img-1{
+   position: absolute;
+    top: 5%;
+    width: 60%;
+    left: 15%;
+}
+.page4-1 .img-2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+}
+.page4-1 .img-4{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 35%;
+}
+.page4-1 .img-5{
+    position: absolute;
+    top: 69.8%;
+    left: 28.5%;
+    width: 38%;
+    z-index: -1;
+}
+
+.page4-1 .span1{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.page4-1 .span2{
+    position: absolute;
+    top: 80%;
+    right: 13%;
+}
+.page5-1 .img-1{
+   position: absolute;
+    top: 5%;
+    width: 60%;
+    left: 15%;
+}
+.page5-1 .img-2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+}
+.page5-1 .img-4{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 35%;
+}
+.page5-1 .img-5{
+    position: absolute;
+    top: 69.8%;
+    left: 28.5%;
+    width: 38%;
+    z-index: -1;
+}
+
+.page5-1 .span1{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.page5-1 .span2{
+    position: absolute;
+    top: 80%;
+    right: 13%;
+}
+.page6-1 .img-1{
+   position: absolute;
+    top: 5%;
+    width: 60%;
+    left: 15%;
+}
+.page6-1 .img-2{
+    position: absolute;
+    top: 10%;
+    /* left: 5%; */
+    width: 100%;
+}
+
+.page6-1 .img-3{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 182px;
+    height: 66px;
+}
+.page6-1.active .img-3{
+    animation: move6-3 2s linear 0s forwards;
+    animation-delay: 5s;
+   -webkit-animation: move6-3 2s linear 0s forwards;
+    -webkit-animation-delay: 5s;
+}
+@keyframes move6-3 {
+    from{
+        left:25%;
+    }
+    to{
+        left:-60%;
+    }
+}
+@-webkit-keyframes move6-3 {
+    from{
+        left:25%;
+    }
+    to{
+        left:-60%;
+    }
+}
+.page6-1 .box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.page6-1 .car{
+    position: absolute;
+    background-image: url(img/6-car-img.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 0 0;
+}
+.page6-1.active .img-3 .box .car{
+    animation: carleft 4s steps(5,end);
+   -webkit-animation: carleft 4s steps(5,end);
+}
+@keyframes carleft {
+   0%{
+       background-position: 0 0;
+   }
+    100%{
+        background-position: -500% 0;
+    }
+}
+@-webkit-keyframes carleft {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -500% 0;
+    }
+}
+.page6-1 .text-bg{
+    position: absolute;
+    top: 42%;
+    left: 15%;
+    width:64%;
+    height: 30%;
+}
+.page6-1 .text-bg .box{
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+.page6-1 .text-bg .bg{
+    position: absolute;
+    background-image: url(img/6-text-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.page6-1.active .text-bg .bg{
+    animation:movebg 4s steps(3,end);
+   -webkit-animation:movebg 4s steps(3,end);
+}
+@keyframes movebg {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+@-webkit-keyframes movebg {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+.page6-1 .img-4{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    width: 35%;
+}
+.page6-1 .img-5{
+    position: absolute;
+    top: 74.8%;
+    left: 28.5%;
+    width: 38%;
+    z-index: -1;
+}
+
+.page6-1 .span1{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+.page6-1 .span2{
+    position: absolute;
+    top: 85%;
+    right: 13%;
+}
+
+.page7-1 .img-1{
+    position: absolute;
+    top: 5%;
+    width: 60%;
+    left: 15%;
+}
+.page7-1 .img-2{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+.page7-1 .img-4{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 35%;
+}
+.page7-1 .img-5{
+    position: absolute;
+    top: 69.8%;
+    left: 28.5%;
+    width: 38%;
+    z-index: -1;
+}
+
+.page7-1 .span1{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.page7-1 .span2{
+    position: absolute;
+    top: 80%;
+    right: 13%;
+}
+.page7-1 .img-3{
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    left: 18%;
+    top:37%;
+}
+.page7-1 .img-3 .box{
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+.page7-1 .img-3 .box .woman{
+    background-image: url(img/7img.png);
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.page7-1.active .img-3 .box .woman{
+   animation:  p7_car 2s, p7_carchange 3000ms 3s steps(6, start);
+   -webkit-animation:  p7_car 2s, p7_carchange 3000ms 3s steps(6, start);
+}
+@keyframes p7_car {
+    0% {
+        left: 100%;
+        top: 100%;
+    }
+    100% {
+        left: 0%;
+        top: 0%;
+    }
+}
+@-webkit-keyframes p7_car {
+    0% {
+        left: 100%;
+        top: 100%;
+    }
+    100% {
+        left: 0%;
+        top: 0%;
+    }
+}
+@keyframes p7_carchange {
+    0% {
+        background-position: -0% 0%;
+    }
+
+    100% {
+        background-position: -600% 0%;
+    }
+}
+@-webkit-keyframes p7_carchange {
+    0% {
+        background-position: -0% 0%;
+    }
+
+    100% {
+        background-position: -600% 0%;
+    }
+}
